@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assests/heart-solid.svg">
+    <title>Girls and Makeup</title>
+
+    <!-- font awsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section start page -->
+    <section id="header" class="header">
+      <a href="#" class="logo"><i class="fas fa-female"></i>cosmeticos</a>
+      <nav class="navbar">
+        <a href="#home">principal</a>
+        <a href="#about">Sobre</a>
+        <a href="#shop">Produtos</a>
+        <a href="#message">Mensagem</a>
+      </nav>
+
+      <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </section>
+
+    <!-- header section ends -->
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+      <div
+        class="slide active"
+        style="
+          background: url(assests/landscape_by\ Dayara.webp) no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        <div class="content">
+          <span
+            >Sempre <br />
+            Linda</span
+          >
+          <h3>
+            "Bem Vinda ao nosso universo rosa"
+        
+        </div>
+      </div>
+
+      <div
+        class="slide"
+        style="
+          background: url() no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+        
+
+      <div
+        class="slide"
+        style="
+          background: url() no-repeat;
+          background-size: cover;
+          background-position: center;
+        "
+      >
+
+      <div id="next-slide" onclick="next()" class="fas fa-angle-right"></div>
+      <div id="prev-slide" onclick="prev()" class="fas fa-angle-left"></div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- category section starts -->
+
+    <section class="category">
+      <div class="box-container">
+        <a  class="box">
+          <img decoding="async" src="assests/skincare.jpg" style="border-radius: 50%;" />
+          <h3>skincare</h3>
+        </a>
+
+        <a class="box">
+          <img decoding="async" src="assests/Brilho Labial.jpg" style="border-radius: 50%;"/>
+          <h3>lábios</h3>
+        </a>
+
+        <a class="box">
+          <img decoding="async" src="assests/olhos.jpg" style="border-radius: 50%;"/>
+          <h3>Sombras</h3>
+        </a>
+
+        <a class="box">
+          <img decoding="async" src="assests/maquiagem.jpg" style="border-radius: 50%;"/>
+          <h3>maquiagens</h3>
+        </a>
+
+      </div>
+    </section>
+    <!-- category section ends -->
+
+    <!-- about section starts -->
+
+    <section class="about" id="about">
+      <div class="img">
+        <img decoding="async" src="assests/landscape_by Dayara.webp" alt="" />
+      </div>
+      <div class="content">
+        <div class="box">
+          <h3>Sobre <span>nós</span></h3>
+          <p>
+            Girls and Makeup é uma marca nova e apaixonada pelo universo da beleza. Nosso objetivo é trazer aos nossos clientes o melhor do mundo da maquiagem, oferecendo produtos para realçar a sua autoestima e destacar a sua beleza única. Aqui, acreditamos que a maquiagem é uma forma de expressão e queremos fazer parte dessa jornada, ajudando você a explorar, criar e se sentir confiante todos os dias. ✨💄
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- shop section starts -->
+
+    <section class="shop" id="shop">
+      <h1 class="heading"><span>Produtos</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/AirBrush_Ruby_Rose.jpg" />
+          </div>
+          <div class="content">
+            <h3>Blush matte Ruby Rose</h3>
+            <div class="price">R$17,00<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/corretivo.jpg" />
+            
+          </div>
+          <div class="content">
+            <h3>Corretivos Ruby Rose</h3>
+            <div class="price">R$15,50<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Paleta de Contorno em Pó Ruby Kisses - 3D Contour Artist Powder.jpg" />
+          </div>
+          <div class="content">
+            <h3>Contorno</h3>
+            <div class="price">R$21,00<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/• Gloss _ Linha MELU by Ruby Rose.jpg" />
+            >
+          </div>
+          <div class="content">
+            <h3>Gloss Melu</h3>
+            <div class="price">R$10,99<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Battom liquido.png" />
+            <div class="icons">
+            </div>
+          </div>
+          <div class="content">
+            <h3>Batom Liquido Ruby Rose</h3>
+            <div class="price">R$ 12,50<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Pó translucido.png" />
+            <div class="icons">
+             
+            </div>
+          </div>
+          <div class="content">
+            <h3>Pó translucido Fenza</h3>
+            <div class="price">R$ 14,15<span></span></div>
+          </div>
+        </div>
+           <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Pó Banana.png" />
+            <div class="icons">
+             
+            </div>
+          </div>
+          <div class="content">
+            <h3>Pó banana Fenza</h3>
+            <div class="price">R$ 15,50<span></span></div>
+          </div>
+        </div>
+
+         <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Sombras.png" />
+            <div class="icons">
+             
+            </div>
+          </div>
+          <div class="content">
+            <h3>Sombra Bella Angel</h3>
+            <div class="price">R$ 23,00<span></span></div>
+          </div>
+        </div>
+
+           <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Pinceis.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Pinceis</h3>
+            <div class="price">R$21,00<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Lapis labial.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Lápis contorno labial, Matte Luisance</h3>
+            <div class="price">R$8,00<span></span></div>
+          </div>
+        </div>
+
+         <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Pó compacto.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Pó compacto Avon Matte, à Prova D'Água</h3>
+            <div class="price">R$12,00<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Base Melu.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Base Melu, 29ml</h3>
+            <div class="price">R$15,07<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Beuty blender.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Beauty Blender, formato Gota Chanfrada</h3>
+            <div class="price">R$3,50<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Caneta Delineadora.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Delineador Intense, 24H</h3>
+            <div class="price">R$18,90<span></span></div>
+          </div>
+        </div>
+
+           <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Serum.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Sérum Detox Melancia Melu</h3>
+            <div class="price">R$30,00<span></span></div>
+          </div>
+        </div>
+
+         <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Água micelar.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Água Miccelar Ludurana, 200ml</h3>
+            <div class="price">R$15,00<span></span></div>
+          </div>
+        </div>
+
+           <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Creme Nivea.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Creme facial Nivea</h3>
+            <div class="price">R$14,24<span></span></div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="img">
+            <img decoding="async" src="assests/Óleo de Rosa Mosqueta.png" />
+            
+          </div>
+          <div class="content">
+            <h3>Óleo de Rosa Mosqueta</h3>
+            <div class="price">R$27,99<span></span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section class="services">
+      <div class="box">
+        
+      </div>
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- footer section starts -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>Links rápidos</h3>
+          <a class="link" href="#home">
+            <i class="fas fa-angle-right"></i> principal</a
+          >
+          <a class="link" href="#about">
+            <i class="fas fa-angle-right"></i> Sobre</a
+          >
+          <a class="link" href="#shop">
+            <i class="fas fa-angle-right"></i> Produtos</a
+          >
+          <a class="link" href="#message">
+            <i class="fas fa-angle-right"></i> Mensagem</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Informações de contato</h3>
+          <a class="link">
+            <i class="fas fa-phone"></i> +55 92 9 9264-1506
+          </a>
+          <a class="link">
+            <i class="fas fa-phone"></i> +55 92 9 9432-3499
+          </a>
+          <a class="link">
+            <i class="fas fa-envelope"></i> conceicaodayara49@gmail.com
+          </a>
+          <a class="link" href="https://www.google.com/maps/place/R.+13,+32+-+Cidade+Nova,+Manaus+-+AM,+69090-316/@-3.0403331,-59.9877657,17z/data=!3m1!4b1!4m6!3m5!1s0x926c1a2e2f0e7ed1:0x16c046c271695264!8m2!3d-3.0403331!4d-59.9877657!16s%2Fg%2F11hbghrf48?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoASAFQAw%3D%3D">
+            <i class="fas fa-map"></i> Rua Pero Vaz de Caminha, 40B - 69090-314
+          </a>
+          <div class="share" style="display: flex; align-items: center;">
+            <a href="https://www.instagram.com/daya__ra/" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-whatsapp"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          
+        </div>
+      </div>
+
+      <div class="credit">
+        created by <span>rafael conceição</span> || all rights reserved!
+      </div>
+    </section>
+
+    <!-- custom js file link -->
+    <script src="main.js"></script>
+  </body>
+</html>
